@@ -171,6 +171,12 @@ textarea:focus {
   	height: 5em;
 }
 
+#comment_directions {
+	display: block;
+	width: 100%;
+	margin-top: 20px;
+}
+
 /**************************
 Radio Buttons & Checkboxes
 ***************************/
@@ -292,14 +298,15 @@ Media Queries
 		display: inline-block;
 		width: 23%;
 	}
+
+	#col1 label,
+	#col2 label  {
+		width: 100%;
+	}
 }
 
 @media (min-width: 1024px) {
-		#col1 label,
-		#col2 label{
-		width: 100%;
-	}
-
+		
 	#col1,
 	#col2 {
 		display: inline-block;
